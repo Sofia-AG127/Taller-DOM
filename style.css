@@ -33,7 +33,15 @@ div {
 #add-task-btn {
     padding: 10px 15px;
     border: none;
-    background-color: #ff6599;
+    background-color: #ff5a91;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#add-task-btn:hover {
+    padding: 10px 15px;
+    border: none;
+    background-color: #fd6b9c;
     color: white;
     border-radius: 4px;
     cursor: pointer;
@@ -53,6 +61,14 @@ div {
 }
 .delete-btn {
     background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #dd4756;
     color: white;
     border: none;
     padding: 5px 10px;
